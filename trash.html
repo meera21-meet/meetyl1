@@ -5,21 +5,15 @@
 	<title>trash</title>
 	<link rel="stylesheet" type="text/css" href="trash.css">
 	<script>
-		var tr= prompt("will you throw the garbage on the ground?");
-
-		if (tr="yes") {
-			q=prompt("will you do that again?");
+		function myFunction(answer) {
+			if (answer=="yes") {
+				var p="will you do that again ?";
+			} else if (answer=="no") {
+				alert("you'll collect all the garbage in the street:(");
+			} else {
+			alert("police is here:( *~*");
+			}
 		}
-		if (q="yes"){
-			alert ("police is here!");
-		} else if(tr="no") {
-			m= prompt("you'll collect all the the garbage in the street :(");
-		}
-
-		else if (tr="no") {
-			o=alert("you'll collect money :) :) <3");
-		}	
-
 	
 		
 	</script>
@@ -29,8 +23,23 @@
 	</div> 
 </head>
 <body>
-	<h1>HI! welcome to Meera's project hope u enjoy it :)</h1>
+	<h1>HI! welcome to Meera's project hope u enjoy it ;)</h1>
 	<img src="hhhh.png" width="1000" height="1000" class="center">
+	<form id="frm1" action="/action_page.php">
+	
+	</form>
+
+	<p>Choose your answer:)be honest i'll not kill you:
+
+			
+
+
+			will you throw the garbage on the ground??</p>
+
+	<button onclick="myFunction('yes')">yes</button>
+
+	<button onclick="myFunction('no')">no</button>
+	<p id="demo"></p>
 
 
 </body>
