@@ -1,0 +1,35 @@
+body {background-color: #7FFFD4}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}  
+
+
+
+#alertBox{
+    position:absolute;
+    top:100px;
+    left:100px;
+    border:solid 3px black;
+    background-color: #ffff00;
+    padding: 150px;
+    visibility: hidden;
+}
+#alertClose{
+   }
+
+
+button {
+  background-color: #000000;
+  margin: auto;
+  color: #FFFF;
+  float: center;
+  padding:60px;
+  display:block;
+  border-radius: 70px;
+  -moz-border-radius: -700px;
+  -webkit-border-radius: 1600px;
+  font-style:  italic;
+}
