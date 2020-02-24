@@ -1,0 +1,22 @@
+h1{color: black ; text-align: center; font-size: 60px}
+body {background-color: #7FFFD4}
+
+h2{color:black; text-align:center; }
+
+h2{font-size: 30px}  
+
+button {align-items: center}
+button {
+  background-color: #000000;
+  align-items: center;
+  color: #FFFF;
+  float: center;
+  padding:50px;
+  border-radius: 90px;
+  -moz-border-radius: -1000px;
+  -webkit-border-radius: 1000px;
+  font-style:  italic;
+  align-items: center;
+   }
+   
+
